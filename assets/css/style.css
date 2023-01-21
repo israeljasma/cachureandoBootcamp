@@ -72,3 +72,137 @@ input[type="text"], input[type="email"], textarea{
     font-size: 1em;
     padding: .25em;
 }
+
+/***Index****/
+.sectionIndex{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 550px;
+}
+.sectionIndex h2{
+    margin-top: 10px;
+}
+.sectionIndex p{
+    margin-top: 20px;
+}
+.articleIndex{
+    width: 50%;
+    height: 477px;
+    float:left;
+    text-align: center;
+    margin: 20px;
+    border-radius: 1em;
+    border: 1px solid skyblue;
+    padding: 1em;
+}
+.asideIndex{
+    width: 30%;
+    height: 200px;
+    float:left;
+    text-align: center;
+    margin: 20px;
+    border-radius: 1em;
+    border: 1px solid skyblue;
+    padding: 1em;
+}
+
+.footer{
+    border: 1px solid green;
+    text-align: center;
+    height: 50px;
+    color: skyblue;
+}
+
+/***Galeria****/
+.sectionGaleria{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 550px;
+    border-radius: 1em;
+    border: 1px solid skyblue;
+    padding: 1em;
+}
+.galeriaImagenes{
+    width: 90%;
+    height: 400px;
+    /* position: relative; */
+    /* top: 0;
+    left: 0; */
+    transition: opacity 3s;
+
+}
+.galeriaImagenes img{
+    width: 360px;
+    height: 300px;
+    /* position: absolute; */
+    opacity: 0;
+    transition: opacity 3s;
+}
+.galeriaImagenes input[type="radio"]{
+    position: relative;
+    left: .5em;
+    bottom: 1px;
+}
+
+.galeriaImagenes input[type="radio"]:nth-of-type(1):checked ~ img:nth-of-type(1){
+    opacity: 1;
+}
+.galeriaImagenes input[type="radio"]:nth-of-type(2):checked ~ img:nth-of-type(2){
+    opacity: 1;
+}
+.galeriaImagenes input[type="radio"]:nth-of-type(3):checked ~ img:nth-of-type(3){
+    opacity: 1;
+}
+
+/* 
+.galeriaImagenes input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+    opacity: 1;
+}
+.galeriaImagenes input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+    opacity: 1;
+}
+.galeriaImagenes input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+    opacity: 1;
+} */
+
+
+
+.galeria {
+    height: calc( 300px + 3em);
+    width: 260px;
+    margin:1em auto;
+    border: 1px solid #555;
+    position: relative;  
+  }
+  
+  .galeria img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s;
+    width: 360px;
+    height: 300px;
+  }
+  
+  .galeria input[type=radio] {
+    position: relative;
+    bottom: calc(-300px - 1.5em);
+    left: .5em;
+  }
+  
+  .galeria input[type="radio"]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+    opacity: 1;
+  }
+  
+  .galeria input[type="radio"]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+    opacity: 1;
+  }
+  
+  .galeria input[type="radio"]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+    opacity: 1;
+  }
+  
+  .galeria input[type="radio"]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+    opacity: 1;
+  }
