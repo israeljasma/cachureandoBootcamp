@@ -5,9 +5,10 @@
 }
 
 header{
-    background: #000;
-    color: red;
+    background: #60a8c4;
+    color: white;
     text-align: center;
+    padding: 10px;
 }
 
 header h1{
@@ -57,7 +58,7 @@ input, textarea{
     border-radius: 1em;
     border: 1px solid skyblue;
     width: 80%;
-    margin: auto;   
+    margin: auto;
     padding: 1em;
 }
 
@@ -206,3 +207,25 @@ input[type="text"], input[type="email"], textarea{
   .galeria input[type="radio"]:nth-of-type(4):checked ~ img:nth-of-type(4) {
     opacity: 1;
   }
+input[type="button"]{
+    background-color: #60a8c4;
+    border-radius: .5em;
+    border: 1px solid skyblue;
+    padding: 1em;
+    color: white;
+}
+
+input[type="button"]:hover{
+    background: #80c7e4;
+    border: 1px solid skyblue;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="button"]:active{
+    background-color: #3f8aa5;
+    border-radius: .5em;
+    border: 1px solid skyblue;
+    padding: 1em;
+    color: white;
+}
