@@ -1,3 +1,9 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
 header{
     background: #000;
     color: red;
@@ -53,4 +59,20 @@ table{
 
 input, textarea{
     width: 300px;
+}
+
+form{
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+}
+
+input[type="text"], input[type="email"], textarea{
+    background: #DDD;
+    border: thin solid skyblue;
+    border-radius: .5em;
+    font-size: 1em;
+    padding: .25em;
 }
