@@ -116,7 +116,6 @@ input[type="text"], input[type="email"], textarea{
 
 /***Galeria****/
 .sectionGaleria{
-    /* border: 1px solid blue; */
     width: 100%;
     height: 550px;
     border-radius: 1em;
@@ -126,51 +125,13 @@ input[type="text"], input[type="email"], textarea{
 .galeriaImagenes{
     width: 90%;
     height: 400px;
-    /* position: relative; */
-    /* top: 0;
-    left: 0; */
     transition: opacity 3s;
 
 }
-.galeriaImagenes img{
-    width: 360px;
-    height: 300px;
-    /* position: absolute; */
-    opacity: 0;
-    transition: opacity 3s;
-}
-.galeriaImagenes input[type="radio"]{
-    position: relative;
-    left: .5em;
-    bottom: 1px;
-}
-
-.galeriaImagenes input[type="radio"]:nth-of-type(1):checked ~ img:nth-of-type(1){
-    opacity: 1;
-}
-.galeriaImagenes input[type="radio"]:nth-of-type(2):checked ~ img:nth-of-type(2){
-    opacity: 1;
-}
-.galeriaImagenes input[type="radio"]:nth-of-type(3):checked ~ img:nth-of-type(3){
-    opacity: 1;
-}
-
-/* 
-.galeriaImagenes input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
-    opacity: 1;
-}
-.galeriaImagenes input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
-    opacity: 1;
-}
-.galeriaImagenes input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
-    opacity: 1;
-} */
-
-
 
 .galeria {
     height: calc( 300px + 3em);
-    width: 260px;
+    width: 360px;
     margin:1em auto;
     border: 1px solid #555;
     position: relative;  
@@ -207,6 +168,19 @@ input[type="text"], input[type="email"], textarea{
   .galeria input[type="radio"]:nth-of-type(4):checked ~ img:nth-of-type(4) {
     opacity: 1;
   }
+
+  .galeria input[type="radio"]:nth-of-type(5):checked ~ img:nth-of-type(5) {
+    opacity: 1;
+  }
+
+  .galeria input[type="radio"]:nth-of-type(6):checked ~ img:nth-of-type(6) {
+    opacity: 1;
+  }
+
+  .galeria input[type="radio"]:nth-of-type(7):checked ~ img:nth-of-type(7) {
+    opacity: 1;
+  }
+  
 input[type="button"]{
     background-color: #60a8c4;
     border-radius: .5em;
