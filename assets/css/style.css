@@ -47,6 +47,7 @@ header h1{
 .container{
     max-width: 80%;
     margin: auto;
+    margin-top: 1em;
 }
 
 input, textarea{
@@ -57,7 +58,7 @@ input, textarea{
     text-align: center;
     border-radius: 1em;
     border: 1px solid skyblue;
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     padding: 1em;
 }
@@ -87,31 +88,35 @@ input[type="text"], input[type="email"], textarea{
     margin-top: 20px;
 }
 .articleIndex{
-    width: 50%;
-    height: 477px;
+    width: 55%;
+    height: 516px;
     float:left;
     text-align: center;
-    margin: 20px;
+    /* margin: 1em; */
     border-radius: 1em;
     border: 1px solid skyblue;
     padding: 1em;
 }
 .asideIndex{
-    width: 30%;
-    height: 200px;
-    float:left;
+    width: 32%;
+    height: 217px;
+    float:right;
     text-align: center;
-    margin: 20px;
+    /* margin: 1em; */
     border-radius: 1em;
     border: 1px solid skyblue;
     padding: 1em;
+    margin-bottom: 3em;
 }
 
 .footer{
-    border: 1px solid green;
+    width: 80%;
+    height: 50px;    
+    border: 1px solid skyblue;
     text-align: center;
-    height: 50px;
-    color: skyblue;
+    margin: auto;
+    border-radius: 1em;
+    margin-top: 1em;
 }
 
 /***Galeria****/
@@ -123,10 +128,9 @@ input[type="text"], input[type="email"], textarea{
     padding: 1em;
 }
 .galeriaImagenes{
-    width: 90%;
+    width: 80%;
     height: 400px;
     transition: opacity 3s;
-
 }
 
 .galeria {
@@ -148,6 +152,7 @@ input[type="text"], input[type="email"], textarea{
   }
   
   .galeria input[type=radio] {
+    display: inline-block;
     position: relative;
     bottom: calc(-300px - 1.5em);
     left: .5em;
