@@ -130,10 +130,11 @@ input[type="text"], input[type="email"], textarea{
 
 /***Galeria****/
 .sectionGaleria{
-    width: 100%;
+    width: auto;
     height: 550px;
     border-radius: 1em;
     padding: 1em;
+    background-color: red;
 }
 
 .galeria {
