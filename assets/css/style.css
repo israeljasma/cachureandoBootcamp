@@ -112,6 +112,7 @@ input[type="text"], input[type="email"], textarea{
     border-radius: 1em;
     padding: 1em;
     margin-bottom: 2em;
+    /* box-shadow: inset 0px 0px 30px 30px #60a8c4; */
 }
 
 .footer{
@@ -212,5 +213,5 @@ input[type="button"]:active{
 }
 
 .colorElement{
-    background-color: rgba(128, 128,128, 0.2);
+    background-color: rgba(128, 128,128, 0.1);
 }
